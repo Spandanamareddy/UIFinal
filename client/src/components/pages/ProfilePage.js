@@ -71,9 +71,7 @@ const Profile = (props) => {
         <div className="container mt-5 login">
             <h1 className="h1-main text-dark">{location.state.name}</h1>
             <h2>Your Posts</h2> <br />
-
-
-            <table class="table table-dark">
+             <table class="table table-dark">
                 <thead>
                     <tr>
                         <th scope="col">PostId</th>
